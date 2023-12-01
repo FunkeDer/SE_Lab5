@@ -11,6 +11,7 @@
 <div class=" container">
 <?php
 
+
 echo "<strong>IP-адреса сервера:</strong>" . "<br>" . $_SERVER['SERVER_ADDR'] . "<br>";
 echo "<strong>IP-адреса клієнта: </strong>" . "<br>" . $_SERVER['REMOTE_ADDR'] . "<br>";
 echo "<strong>Порт сервера: </strong>" . "<br>" . $_SERVER['SERVER_PORT'] . "<br>";
@@ -22,8 +23,8 @@ $username = "VLAD";
 $password = "12341234";
 $dbname = "University";
 
-
 $conn = new mysqli($servername, $username, $password, $dbname);
+
 
 
 if ($conn->connect_error) {
