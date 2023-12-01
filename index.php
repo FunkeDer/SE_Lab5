@@ -11,7 +11,6 @@
 <div class=" container">
 <?php
 
-
 echo "<strong>IP-адреса сервера:</strong>" . "<br>" . $_SERVER['SERVER_ADDR'] . "<br>";
 echo "<strong>IP-адреса клієнта: </strong>" . "<br>" . $_SERVER['REMOTE_ADDR'] . "<br>";
 echo "<strong>Порт сервера: </strong>" . "<br>" . $_SERVER['SERVER_PORT'] . "<br>";
